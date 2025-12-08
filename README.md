@@ -4402,7 +4402,7 @@ local v66 = v16.Sea:AddToggle("ToggleTpAdvanced", {
     Description = "",
     Default = false
 });
-v66:OnChanged(function(v257)
+v17.ToggleRejoin:SetValue(false) 
     _G.AutoTpAdvanced = v257;
 end);
 spawn(function()
